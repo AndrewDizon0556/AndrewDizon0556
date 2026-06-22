@@ -17,9 +17,11 @@
 
 I'm a second-year CS student who builds things from scratch to understand how they work — from REST APIs with authentication pipelines to game engines with procedural generation and AI. Currently focused on full-stack development and shipping real, deployed applications.
 
-- Building full-stack web apps with **Java / Spring Boot** and **React / TypeScript**
-- Exploring game systems design with **Python / Pygame**
-- Interested in **AI/LLM integration**, **system architecture**, and **database design**
+- Building production-deployed web apps with **Java / Spring Boot** and **React / TypeScript**
+- Designing game systems with **Python / Pygame** — procedural generation, AI, and pixel art
+- Hands-on with **JWT auth**, **role-based access control**, **rate limiting**, and **API security hardening**
+- Integrating **AI/LLM APIs** into real products (Google Gemini for context-aware financial coaching)
+- Experienced with **offline-first PWA architecture** — IndexedDB, service workers, background sync
 - Working toward becoming a **full-stack software engineer**
 
 ---
@@ -43,6 +45,7 @@ I'm a second-year CS student who builds things from scratch to understand how th
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=flat-square)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
 
 **Frontend**
 
@@ -50,6 +53,8 @@ I'm a second-year CS student who builds things from scratch to understand how th
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
 
 **Tools & Platforms**
 
@@ -68,11 +73,31 @@ I'm a second-year CS student who builds things from scratch to understand how th
 <tr>
 <td width="50%" valign="top">
 
+#### [Ipon Challenge — Personal Finance Tracker](https://github.com/AndrewDizon0556/Personal-Finance-Budget-Tracker)
+
+A production-deployed full-stack personal finance PWA with AI-powered budgeting advice. Built for students and anyone on a budget.
+
+**[Live App →](https://personal-finance-budget-tracker-seven.vercel.app)**
+
+- Spring Boot REST API with JWT auth, RBAC, rate limiting, and security hardening
+- React + TypeScript frontend with Zustand state management
+- Offline-first PWA — IndexedDB, service workers, background sync
+- AI financial coach powered by Google Gemini with context-aware advice
+- Savings goals, allowance runway, gamification (XP, streaks, challenges)
+- Semester budget planning, financial health score, PDF/CSV reports
+- Admin analytics dashboard with engagement metrics
+- Deployed on Vercel + Railway with auto-deploy CI/CD
+
+`Java` `Spring Boot` `React` `TypeScript` `PostgreSQL` `Tailwind` `Gemini API` `PWA`
+
+</td>
+<td width="50%" valign="top">
+
 #### [Crypts of the Forgotten Descent](https://github.com/AndrewDizon0556/-Crypts-of-the-Forgotten-Descent)
 
-A turn-based roguelike dungeon crawler built entirely from scratch in Python + Pygame.
+A turn-based roguelike dungeon crawler built entirely from scratch in Python + Pygame. Zero external assets — every sprite is drawn procedurally.
 
-- Procedural dungeon generation using BSP
+- Procedural dungeon generation using BSP trees
 - Enemy AI with BFS pathfinding and FSM behavior
 - 3 character classes, 18 items, multi-phase boss fight
 - All sprites drawn procedurally — zero external assets
@@ -81,23 +106,24 @@ A turn-based roguelike dungeon crawler built entirely from scratch in Python + P
 `Python` `Pygame` `SQLite` `Procedural Generation` `AI`
 
 </td>
-<td width="50%" valign="top">
-
-#### [Ipon Challenge](https://github.com/AndrewDizon0556)
-
-A production-deployed full-stack personal finance PWA with AI-powered budgeting advice.
-
-- Spring Boot REST API with JWT auth and RBAC
-- Offline-first React frontend with auto-sync
-- AI financial coach via Google Gemini API
-- Admin analytics dashboard with engagement metrics
-- Deployed on Vercel + Railway with CI/CD
-
-`Java` `Spring Boot` `React` `TypeScript` `PostgreSQL` `Gemini API`
-
-</td>
 </tr>
 </table>
+
+---
+
+### What I've Built With
+
+Things I've implemented hands-on across my projects — not just tutorials, actually shipped:
+
+| Area | What I've Done |
+|---|---|
+| **Auth & Security** | JWT with token versioning, BCrypt, account lockout, per-IP rate limiting, RBAC, CSP/HSTS headers |
+| **API Design** | RESTful Spring Boot APIs with controller → service → repository layering, DTOs, global error handling |
+| **Frontend Architecture** | React SPA with typed API clients, Zustand stores, form validation (Zod), animated UI (Framer Motion) |
+| **Offline-First** | IndexedDB via Dexie, Workbox service worker, SyncManager for background data sync |
+| **AI Integration** | Google Gemini API with context injection (user financial data), per-user rate caps, action confirmation flow |
+| **Game Systems** | BSP dungeon generation, BFS pathfinding, FSM enemy AI, procedural sprite rendering, SQLite persistence |
+| **DevOps** | Vercel + Railway deployment, environment-based config, auto-deploy on push |
 
 ---
 
