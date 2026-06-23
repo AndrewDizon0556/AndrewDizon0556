@@ -157,10 +157,9 @@ Things I've implemented hands-on across my projects — not just tutorials, actu
 
 ---
 
-### GitHub Stats
+### Most Used Languages
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AndrewDizon0556&show_icons=true&hide=contribs&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9a0dc&icon_color=c9a0dc&text_color=a9b1d6" height="165">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndrewDizon0556&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9a0dc&text_color=a9b1d6" height="165">
 </p>
 
