@@ -21,6 +21,7 @@ I'm a second-year CS student who builds things from scratch to understand how th
 - Designing game systems with **Python / Pygame** — procedural generation, AI, and pixel art
 - Hands-on with **JWT auth**, **role-based access control**, **rate limiting**, and **API security hardening**
 - Integrating **AI/LLM APIs** into real products (Google Gemini for context-aware financial coaching)
+- Building **real-time systems** with **Node.js + Socket.IO** — live messaging, presence, and typing indicators
 - Experienced with **offline-first PWA architecture** — IndexedDB, service workers, background sync
 - Working toward becoming a **full-stack software engineer**
 
@@ -41,8 +42,13 @@ I'm a second-year CS student who builds things from scratch to understand how th
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=flat-square)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
@@ -62,6 +68,8 @@ I'm a second-year CS student who builds things from scratch to understand how th
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
+![MongoDB Atlas](https://img.shields.io/badge/MongoDB_Atlas-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 ![Pygame](https://img.shields.io/badge/Pygame-3776AB?style=flat-square&logo=python&logoColor=white)
 
@@ -107,6 +115,27 @@ A turn-based roguelike dungeon crawler built entirely from scratch in Python + P
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+#### [ChikkaChat — Real-Time Messaging Platform](https://github.com/AndrewDizon0556/ChikkaChat)
+
+A production-deployed real-time chat app with instant messaging, online presence, typing indicators, and group chats. Built to learn WebSocket architecture and event-driven systems end to end.
+
+**[Live App →](https://chikka-chat.vercel.app)**
+
+- **Node.js + Express + Socket.IO** backend for sub-500ms real-time messaging
+- **React + TypeScript + Zustand** frontend with a responsive, mobile-friendly UI
+- **Firebase Authentication** (Email/Password + Google OAuth) with stateless backend token verification
+- **MongoDB + Mongoose** for scalable message/conversation storage with pagination
+- Online presence tracking, typing indicators, message search, replies, and deletion
+- File & image sharing via Firebase Storage; group create / rename / add & remove members
+- Deployed on Vercel (frontend) + Render (backend) + MongoDB Atlas, with rate limiting and CORS hardening
+
+`Node.js` `Express` `Socket.IO` `React` `TypeScript` `MongoDB` `Firebase` `Tailwind`
+
+</td>
+</tr>
 </table>
 
 ---
@@ -122,15 +151,16 @@ Things I've implemented hands-on across my projects — not just tutorials, actu
 | **Frontend Architecture** | React SPA with typed API clients, Zustand stores, form validation (Zod), animated UI (Framer Motion) |
 | **Offline-First** | IndexedDB via Dexie, Workbox service worker, SyncManager for background data sync |
 | **AI Integration** | Google Gemini API with context injection (user financial data), per-user rate caps, action confirmation flow |
+| **Real-Time Systems** | Socket.IO event-driven messaging, room-based broadcasting, presence tracking, typing indicators, auth handshake |
 | **Game Systems** | BSP dungeon generation, BFS pathfinding, FSM enemy AI, procedural sprite rendering, SQLite persistence |
-| **DevOps** | Vercel + Railway deployment, environment-based config, auto-deploy on push |
+| **DevOps** | Vercel + Railway + Render deployment, environment-based config, auto-deploy on push |
 
 ---
 
 ### GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AndrewDizon0556&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9a0dc&icon_color=c9a0dc&text_color=a9b1d6" height="165">
+  <img src="https://github-readme-stats.vercel.app/api?username=AndrewDizon0556&show_icons=true&hide=contribs&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9a0dc&icon_color=c9a0dc&text_color=a9b1d6" height="165">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndrewDizon0556&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9a0dc&text_color=a9b1d6" height="165">
 </p>
 
